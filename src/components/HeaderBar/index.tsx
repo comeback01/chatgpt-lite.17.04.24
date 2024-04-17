@@ -21,7 +21,11 @@ const HeaderBar = () => {
         </div>
         <Space className={styles.right} size={0}>
           <span className={styles.right}>
-            
+            <Link
+              className={styles.action}
+              href="https://github.com/blrchen/chatgpt-minimal"
+              target="_blank"
+            >
               <GithubOutlined />
             </Link>
           </span>
